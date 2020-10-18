@@ -10,7 +10,7 @@ class Dog
 
   attr_reader :name
 
-  def self.all 
+  def self.all
     @all
   end 
 
@@ -22,6 +22,6 @@ class Dog
 
   def clear_all
     @all.clear
-  end 
+  end
 
 end
