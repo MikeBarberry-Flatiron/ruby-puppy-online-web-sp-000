@@ -10,5 +10,9 @@ class Dog
 
   attr_reader :name
 
+  def print_all
+    @@all.each do |name|
+      puts name
+    end 
 
 end
