@@ -11,8 +11,8 @@ class Dog
   attr_reader :name
 
   def self.all
-    @all
-  end 
+    @@all
+  end
 
   def print_all
     @@all.each do |name|
