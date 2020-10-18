@@ -29,3 +29,5 @@ class Dog
   end
 
 end
+
+snoopy = Dog.new("Snoopy")
