@@ -5,7 +5,7 @@ class Dog
 
   def initialize(name)
     @name = name
-    @all << self.name
+    save
   end
 
   attr_reader :name
@@ -23,5 +23,9 @@ class Dog
   def self.clear_all
     @@all.clear
   end
+
+  def save 
+    @all << self.name
+  end 
 
 end
