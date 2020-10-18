@@ -15,8 +15,8 @@ class Dog
   end
 
   def print_all
-    @@all.each do |name|
-      puts name
+    @@all.map do |name|
+      name.name
     end
   end
 
@@ -26,6 +26,6 @@ class Dog
 
   def save
     @all << self.name
-  end 
+  end
 
 end
